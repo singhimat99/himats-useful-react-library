@@ -1,5 +1,5 @@
 {
-  "name": "himats-useful-library",
+  "name": "@singhimat99/himats-useful-react-library",
   "version": "0.0.1",
   "description": "A react component library",
   "type": "module",
@@ -25,5 +25,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/singhimat99"
+  }
 }
